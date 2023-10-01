@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 def initialize(context):
-    set_benchmark(symbol("AAPL"))
-    context.stock = symbol("AAPL")
+    set_benchmark(symbol("TSLA"))
+    context.stock = symbol("TSLA")
     context.index_average_window = 100
 
 def handle_data(context, data):
